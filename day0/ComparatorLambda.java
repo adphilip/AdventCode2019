@@ -20,7 +20,7 @@ class ComparatorLambda {
 
     List <String> arrayString = Arrays.asList("a", "aaa", "aa", "aaaaaaa");
 
-    Collections.sort(arrayString, () ->  Integer.compare(s1.length(), s2.length()));
+    Collections.sort(arrayString, (s1, s2) ->  Integer.compare(s1.length(), s2.length()));
 
     for (String stringOne : arrayString) {
         System.out.println("StringList :" + stringOne);
