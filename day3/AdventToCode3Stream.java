@@ -1,10 +1,12 @@
+package day3;
+
 //import helpers.Coordinate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Day3_CrossedWires {
+public class AdventToCode3Stream {
     public static final SmartCoordinate startingCoordinate = new SmartCoordinate(0, 0, 0);
 
     public void runCode3() {

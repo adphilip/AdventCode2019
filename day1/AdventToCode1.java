@@ -1,3 +1,5 @@
+package day1;
+
 public class AdventToCode1 {
 
     private double[] adventCodeOneTest = new double[]{12,14,1969,100756};
