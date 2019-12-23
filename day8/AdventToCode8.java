@@ -1,3 +1,5 @@
+package day8;
+
 import java.io.IOException;
 import java.io.BufferedWriter;
 import java.io.File;

@@ -8,8 +8,7 @@ import java.util.HashSet;
 import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.Queue; 
-import Person.*;
-import Toys.*;
+//import Toys.*;
 import java.io.IOException;
 
 class AdventCode2019{
@@ -42,26 +41,25 @@ class AdventCode2019{
     public enum Snow 
     {Blizzard, Squall, Flurry};
 
-    public static void main(String args[]){
-        //-----------------Advent start--------------
-      //  AdventToCode1 adventOne = new AdventToCode1();
-      //  adventOne.fuelConsumtion();
-     // AdventToCode2 adventTwo = new AdventToCode2();
-      //adventTwo.findNounVerb();
-      //adventTwo.resolvePuzzleInput();
-    // AdventToCode3 adventThree = new AdventToCode3();
-    // adventThree.fullFillData();
-    // adventThree.findMinimumCommon();
-    // adventThree.sumOfData();
-   
-    try {
-    AdventToCode8 adventCode8 = new AdventToCode8();
-    adventCode8.whenWriteStringUsingBufferedWritter_thenCorrect();
-    adventCode8.functionPartTwo();
-    }
-    catch(IOException e){
-        System.out.println ("IOException!!!");
-    }
+    public static void main(final String args[]) {
+        // -----------------Advent start--------------
+        // AdventToCode1 adventOne = new AdventToCode1();
+        // adventOne.fuelConsumtion();
+        // AdventToCode2 adventTwo = new AdventToCode2();
+        // adventTwo.findNounVerb();
+        // adventTwo.resolvePuzzleInput();
+        // AdventToCode3 adventThree = new AdventToCode3();
+        // adventThree.fullFillData();
+        // adventThree.findMinimumCommon();
+        // adventThree.sumOfData();
+
+    //     try {
+    //         final AdventToCode8 adventCode8 = new AdventToCode8();
+    //         adventCode8.whenWriteStringUsingBufferedWritter_thenCorrect();
+    //         adventCode8.functionPartTwo();
+    //     } catch (final IOException e) {
+    //     System.out.println ("IOException!!!");
+    // }
 
     
 
