@@ -21,6 +21,7 @@ public class Day11 {
 
         System.out.println("Part 2 starting to print");
         paintyBoyPart2.printRobotsPaintBoard();
+
     }
 
     public static class LilPaintyRobot {
